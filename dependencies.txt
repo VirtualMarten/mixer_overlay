@@ -1,0 +1,4 @@
+PySide6==6.4.3
+ujson
+pycaw==20230322
+comtypes==1.1.14
