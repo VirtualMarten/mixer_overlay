@@ -1,0 +1,1 @@
+pyinstaller -y -w -n AudioMixerOverlay main.py

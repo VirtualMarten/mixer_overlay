@@ -1,0 +1,71 @@
+{
+    "debug": false,
+    "show_process_count": true,
+    "monitor": 1,
+    "button_count": 8,
+    "auto_close": true,
+    "min_width": 300,
+    "spacer_position": 9,
+    "close_on_deselect": true,
+    "steam_library_folders": [
+        "C:\\Program Files (x86)\\Steam"
+    ],
+    "steamapp_exlusions": [
+        "xsoverlay.*"
+    ],
+    "controls": [
+        {
+            "name": "Master Volume",
+            "master": true,
+            "bg_color": "#111",
+            "fg_color": "#eee"
+        },
+        {
+            "name": "Game",
+            "target_applications": [
+                "<steamgame>", "trackmania"
+            ],
+            "use_app_title": true,
+            "only_first": true,
+            "fg_color": "#eee",
+            "bg_color": "#1f232d",
+            "bg_color2": "#184355"
+        },
+        {
+            "name": "Spotify",
+            "target_applications": [
+                "spotify"
+            ]
+        },
+        {
+            "name": "Firefox",
+            "target_applications": [
+                "firefox"
+            ]
+        },
+        {
+            "name": "Discord",
+            "target_applications": [
+                "discord"
+            ]
+        },
+        {
+            "name": "Unity",
+            "target_applications": [
+                "unity"
+            ]
+        },
+        {
+            "name": "Telegram",
+            "target_applications": [
+                "telegram"
+            ]
+        },
+        {
+            "name": "OBS",
+            "target_applications": [
+                "obs64"
+            ]
+        }
+    ]
+}
