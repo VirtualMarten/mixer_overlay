@@ -1,7 +1,9 @@
 # Simple Audio Mixer Overlay
 A simple volume overlay I built for use with my XP-PEN tablet buttons and wheel.
-<img src="https://imgur.com/K9SXT4m">
-![demo of the volume mixer](https://imgur.com/Wk4vqe5)
+
+<img alt="XP-PEN Artist 12 Pro with my audio mixer on the screen" src="https://user-images.githubusercontent.com/110787538/228394032-44c5c653-2218-45c8-b4e3-5abe2e531f09.jpg" width="300">
+
+[demo.webm](https://user-images.githubusercontent.com/110787538/228394630-b0862a7c-c06e-42c1-8250-1fdc60202a6f.webm)
 
 This uses the WIN32 API so will only work on Windows, tested on Windows 10.
 I want to eventually rebuild this in C++ with a dedicated process to listen for a key combo to open the mixer.
@@ -25,10 +27,12 @@ For my XP-PEN Artist 12 Pro, I set each button to select a volume slider, and I 
 The target application is set to the EXE created by pyinstaller in step 2.
 
 Button bindings:
-![xp-pen button bindings](https://imgur.com/a/VL0mQNi)
+
+![XP-PEN configuration software button bindings](https://user-images.githubusercontent.com/110787538/228394248-cf2cd5ff-1d0f-4e24-9d92-98db63d40445.png)
 
 Wheel bindings:
-![xp-pen wheel bindings](https://imgur.com/x5QHAlQ)
+
+![XP-PEN configuration software wheel bindings](https://user-images.githubusercontent.com/110787538/228394251-e16d1363-0ffb-4b4f-b30f-ba091fa7d792.png)
 
 ## Keyboard Bindings
 
