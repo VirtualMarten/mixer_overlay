@@ -1,12 +1,12 @@
 # Simple Audio Mixer Overlay
 A simple volume overlay I built for use with my XP-PEN tablet buttons and wheel.
 
+This uses the WIN32 API so it will only work on Windows, tested on Windows 10.
+I want to eventually rebuild this in C++ with a dedicated process to listen for a key combo to open the mixer.
+
 <img alt="XP-PEN Artist 12 Pro with my audio mixer on the screen" src="https://user-images.githubusercontent.com/110787538/228394032-44c5c653-2218-45c8-b4e3-5abe2e531f09.jpg" width="300">
 
 [demo.webm](https://user-images.githubusercontent.com/110787538/228394630-b0862a7c-c06e-42c1-8250-1fdc60202a6f.webm)
-
-This uses the WIN32 API so will only work on Windows, tested on Windows 10.
-I want to eventually rebuild this in C++ with a dedicated process to listen for a key combo to open the mixer.
 
 ## Setup
 
