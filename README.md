@@ -1,6 +1,6 @@
 # Simple Audio Mixer Overlay
 A simple volume overlay I built for use with my XP-PEN tablet buttons and wheel.
-![the xp-pen artist 12 pro with my audio mixer overlay on the screen](https://imgur.com/K9SXT4m)
+<img src="https://imgur.com/K9SXT4m">
 ![demo of the volume mixer](https://imgur.com/Wk4vqe5)
 
 This uses the WIN32 API so will only work on Windows, tested on Windows 10.
